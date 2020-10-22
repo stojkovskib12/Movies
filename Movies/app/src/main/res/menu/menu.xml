@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="NearbyMovies"
+        android:id="@+id/nearby"
+        android:icon="@drawable/nearby"
+        app:showAsAction="always"
+        />
+    <item android:title="Add"
+        android:id="@+id/add"
+        android:icon="@drawable/addmovie"
+        app:showAsAction="always"
+        />
+
+
+
+
+</menu>

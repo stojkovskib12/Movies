@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:padding="20dp"
+    android:background="#554466">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Film name:"
+            android:textStyle="italic"
+            android:textColor="#fff"
+            android:layout_weight="50"/>
+        <EditText
+            android:id="@+id/namee"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#fff"
+            android:textColorHint="#fff"
+            android:layout_weight="50"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/slika"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/bp"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/changePhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change photo"
+                android:textColor="#fff"
+                android:background="@drawable/rounded_light"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"/>
+            <Button
+                android:id="@+id/cameraPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take a picture"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/rounded_light"
+                android:layout_weight="0.5"/>
+        </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Here enter details about film:"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="100"
+        >
+
+        <EditText
+            android:id="@+id/firstt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Country"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            />
+        <EditText
+            android:id="@+id/secondd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Language"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            />
+        <EditText
+            android:id="@+id/thirdd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Year of release"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            />
+        <EditText
+            android:id="@+id/fourthh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Filming locations"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            />
+        <EditText
+            android:id="@+id/fifthh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Runtime"
+            android:inputType="number"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:text="Storyline:"/>
+        <EditText
+            android:id="@+id/enterCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Storyline"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/createe"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Add"
+        android:textColor="#fff"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="end"
+        android:background="@drawable/rounded_light"
+        />
+
+
+</LinearLayout>

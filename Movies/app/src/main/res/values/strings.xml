@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="facebook_app_id">1622858564550971</string>
+    <string name="fb_login_protocol_scheme">fb1622858564550971</string>
+    <string name="title_activity_maps">Nearby places for watching movies</string>
+    <string name="google_map_key">AIzaSyAQkLDFGlK-qy_pD6oYrdmiHXs7l4SMd8g</string>
+
+</resources>
